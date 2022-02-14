@@ -1,0 +1,41 @@
+from pystray import MenuItem as item
+import pystray
+from PIL import Image
+import schedule
+import time
+import datetime
+import threading
+
+def job():
+    print("I'm working...",datetime.datetime.now())
+
+def do_work():
+    print("I am thread")
+    schedule.every(2).seconds.do(job)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+        # if stop():
+        #     print("  Exiting loop.")
+        #     break
+    print("Thread, signing off")
+
+def finish_work(function, stop):
+    stop=True
+    function.join()
+    print('Finish.')
+
+
+def main():
+    stop_threads = False
+    stockAlram=threading.Thread(target=do_work,daemon=True,)
+    image = Image.open("stockAlarm/paw.png")
+    menu = (item('Start',lambda : stockAlram.start()), item('Stop Working', lambda : finish_work(stockAlram, stop_threads)), item('Stop', lambda : icon.stop()))
+    icon = pystray.Icon("What", image, "Cat", menu)
+    icon.run()
+    print('what is problem')
+
+
+
+if __name__ == '__main__':
+    main()
