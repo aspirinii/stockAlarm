@@ -20,20 +20,23 @@ def do_work():
         #     break
     print("Thread, signing off")
 
-def finish_work(function, stop):
-    stop=True
-    function.join()
-    print('Finish.')
+# def finish_work(thr):
+#     global stockAlarm = True
+#     thr.join()
+#     print('Finish.')
 
 
 def main():
     stop_threads = False
     stockAlram=threading.Thread(target=do_work,daemon=True,)
-    image = Image.open("stockAlarm/paw.png")
-    menu = (item('Start',lambda : stockAlram.start()), item('Stop Working', lambda : finish_work(stockAlram, stop_threads)), item('Stop', lambda : icon.stop()))
+    image = Image.open("paw.png")
+    menu = (item('Start', lambda : stockAlram.start()),
+    # item('Stop Working', lambda : x=True, stop_threads ),
+    item('interve Test', lambda : print('iterve test work')), 
+    item('Stop', lambda : icon.stop()))
     icon = pystray.Icon("What", image, "Cat", menu)
     icon.run()
-    print('what is problem')
+
 
 
 
