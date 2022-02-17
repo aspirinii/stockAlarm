@@ -10,3 +10,120 @@
 2022-02-16 16:46:11 it is not over but working now
 2022-02-16 16:46:22 it is not over but working now
 2022-02-16 16:46:33 it is not over but working now
+2022-02-16 21:06:48 Message Test
+2022-02-16 21:09:16 --Start Thread--
+2022-02-16 21:52:17 Message Test
+2022-02-16 21:55:33 --Start Thread--
+2022-02-16 21:56:54 --Start Thread--
+2022-02-16 21:56:58 Value is not over but App is working now
+2022-02-16 21:57:02 Value is not over but App is working now
+2022-02-16 21:57:06 Value is not over but App is working now
+2022-02-16 21:57:10 Value is not over but App is working now
+2022-02-16 21:57:14 Value is not over but App is working now
+2022-02-16 21:57:18 Value is not over but App is working now
+2022-02-16 21:57:22 Value is not over but App is working now
+2022-02-16 21:57:26 Value is not over but App is working now
+2022-02-16 21:57:30 Value is not over but App is working now
+2022-02-16 21:57:34 Value is not over but App is working now
+2022-02-16 21:57:38 Value is not over but App is working now
+2022-02-16 21:57:42 Value is not over but App is working now
+2022-02-16 21:57:46 Value is not over but App is working now
+2022-02-16 21:57:50 Value is not over but App is working now
+2022-02-16 21:57:54 Value is not over but App is working now
+2022-02-16 21:57:58 Value is not over but App is working now
+2022-02-16 21:58:02 Value is not over but App is working now
+2022-02-16 21:58:06 Value is not over but App is working now
+2022-02-16 21:58:10 Value is not over but App is working now
+2022-02-16 21:58:14 Value is not over but App is working now
+2022-02-16 21:58:18 Value is not over but App is working now
+2022-02-16 21:58:22 Value is not over but App is working now
+2022-02-16 21:58:26 Value is not over but App is working now
+2022-02-16 21:58:30 Value is not over but App is working now
+2022-02-16 21:58:34 Value is not over but App is working now
+2022-02-16 21:58:38 Value is not over but App is working now
+2022-02-16 22:05:35 --Start Thread--
+2022-02-16 22:05:46 Value is not over but App is working now
+2022-02-16 22:05:57 Value is not over but App is working now
+2022-02-16 22:06:08 Value is not over but App is working now
+2022-02-16 22:06:19 Value is not over but App is working now
+2022-02-16 22:14:08 --Start Thread--
+2022-02-16 22:14:19 Value is not over but App is working now
+2022-02-16 22:14:30 Value is not over but App is working now
+2022-02-16 22:16:44 --Start Thread--
+2022-02-16 22:16:53 Message Test
+2022-02-16 22:16:56 Value is not over but App is working now
+2022-02-16 22:17:07 Value is not over but App is working now
+2022-02-16 22:17:18 Value is not over but App is working now
+2022-02-16 22:17:29 Value is not over but App is working now
+2022-02-16 22:17:40 Value is not over but App is working now
+2022-02-16 22:30:57 Complete reissuance
+2022-02-16 22:30:57 Sending message success.
+2022-02-16 22:32:38 Complete reissuance
+2022-02-16 22:32:38 Sending message success.
+2022-02-16 22:32:38 send message : --Start threading--
+2022-02-16 22:34:29 Complete reissuance
+2022-02-16 22:34:29 Sending message success.
+2022-02-16 22:34:29 send message : --Message APP STOP--
+2022-02-16 22:35:10 Complete reissuance
+2022-02-16 22:35:10 Sending message success.
+2022-02-16 22:35:10 send message : --Start threading--
+2022-02-16 22:35:21 Value is not over but App is working now
+2022-02-16 22:35:32 Value is not over but App is working now
+2022-02-16 22:35:43 Value is not over but App is working now
+2022-02-16 22:35:46 Sending message success.
+2022-02-16 22:35:46 send message : --Message Test--
+2022-02-16 22:35:54 Complete reissuance
+2022-02-16 22:35:54 Sending message success.
+2022-02-16 22:35:54 send message : --Message APP STOP--
+2022-02-16 22:35:54 Value is not over but App is working now
+2022-02-16 22:38:18 Complete reissuance
+2022-02-16 22:38:18 Send message : --Start threading--
+2022-02-16 22:46:13 Send message : --Message Test--
+2022-02-16 23:08:20 Value is not over but App is working now
+2022-02-16 23:38:21 Value is not over but App is working now
+2022-02-17 00:08:22 Value is not over but App is working now
+2022-02-17 00:38:23 Value is not over but App is working now
+2022-02-17 01:08:24 Value is not over but App is working now
+2022-02-17 01:38:25 Value is not over but App is working now
+2022-02-17 02:08:27 Value is not over but App is working now
+2022-02-17 02:38:28 Value is not over but App is working now
+2022-02-17 03:08:29 Value is not over but App is working now
+2022-02-17 03:38:31 Value is not over but App is working now
+2022-02-17 04:08:32 Value is not over but App is working now
+2022-02-17 04:38:33 Value is not over but App is working now
+2022-02-17 05:08:34 Value is not over but App is working now
+2022-02-17 05:38:35 Value is not over but App is working now
+2022-02-17 06:08:37 Value is not over but App is working now
+2022-02-17 06:38:38 Value is not over but App is working now
+2022-02-17 07:08:40 Value is not over but App is working now
+2022-02-17 07:38:41 Value is not over but App is working now
+2022-02-17 08:08:42 Value is not over but App is working now
+2022-02-17 08:30:01 Value is not over but App is working now
+2022-02-17 08:38:44 Value is not over but App is working now
+2022-02-17 09:08:46 Value is not over but App is working now
+2022-02-17 09:38:47 Value is not over but App is working now
+2022-02-17 10:08:48 Value is not over but App is working now
+2022-02-17 10:38:50 Value is not over but App is working now
+2022-02-17 11:08:51 Value is not over but App is working now
+2022-02-17 11:38:52 Value is not over but App is working now
+2022-02-17 12:08:54 Value is not over but App is working now
+2022-02-17 12:38:56 Value is not over but App is working now
+2022-02-17 13:08:58 Value is not over but App is working now
+2022-02-17 13:38:59 Value is not over but App is working now
+2022-02-17 14:09:00 Value is not over but App is working now
+2022-02-17 14:39:02 Value is not over but App is working now
+2022-02-17 15:09:03 Value is not over but App is working now
+2022-02-17 15:39:04 Value is not over but App is working now
+2022-02-17 16:09:06 Value is not over but App is working now
+2022-02-17 16:39:08 Value is not over but App is working now
+2022-02-17 17:09:09 Value is not over but App is working now
+2022-02-17 17:30:01 Value is not over but App is working now
+2022-02-17 17:39:11 Value is not over but App is working now
+2022-02-17 18:09:12 Value is not over but App is working now
+2022-02-17 18:39:14 Value is not over but App is working now
+2022-02-17 19:09:15 Value is not over but App is working now
+2022-02-17 19:39:17 Value is not over but App is working now
+2022-02-17 20:09:18 Value is not over but App is working now
+2022-02-17 20:39:20 Value is not over but App is working now
+2022-02-17 21:09:21 Value is not over but App is working now
+2022-02-17 21:39:23 Value is not over but App is working now

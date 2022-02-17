@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from log_log import logging_log
 
 
 def remove_everything_exceptNumberAndDot(a): 
@@ -29,17 +30,28 @@ def scraping_price(ticker):
 
     PostPrice = soup.find(
         'fin-streamer', {'data-symbol' : ticker, 'data-field' : 'postMarketPrice'})
+    
+    PrePrice = soup.find(
+    'fin-streamer', {'data-symbol' : ticker, 'data-field' : 'preMarketPrice'})
 
     try:
         floatPostPrice= remove_everything_exceptNumberAndDot(PostPrice.text)
+        logging_log("Got Post Price")
         return floatPostPrice
     except:
-        print("don't have CurrentPrice")
-
+        logging_log("don't have PostPrice")
+        
+    try:
+        floatPrePrice= remove_everything_exceptNumberAndDot(PrePrice.text)
+        logging_log("Got Pre Price")
+        return floatPrePrice
+    except:
+        logging_log("don't have PrePrice")
 
     try:
         floatCurrentPrice= remove_everything_exceptNumberAndDot(currentPrice.text)
+        logging_log("Got current Price")
         return floatCurrentPrice
     except:
-        print("don't have PostPrice")
+        logging_log("don't have CurrentPrice")
         

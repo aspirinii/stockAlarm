@@ -1,5 +1,6 @@
 import json
 import requests
+from log_log import logging_log
 
 def reissuance():
     with open("kakao_code.json", "r") as fp:
@@ -28,4 +29,4 @@ def reissuance():
     with open("kakao_code.json","w") as fp:
         json.dump(tokens, fp)
         
-    print("Complete reissuance")
+    logging_log("Complete reissuance")

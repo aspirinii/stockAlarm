@@ -11,34 +11,35 @@ from scraping_yahoofinance import scraping_price
 from log_log import logging_log
 
 thresholdPrice = 3000
-
+ticker = "GOOGL"
 
 def job():
-    print("I'm working...",datetime.datetime.now())
-    reissuance() #테스트할땐 잠깐 홀딩
-    ticker = "GOOGL"
     price = scraping_price(ticker)
     if price > thresholdPrice:
+        reissuance() #테스트할땐 잠깐 홀딩
         text = f"{ticker} is {price}"
         send_message(text)
     else:
-        logging_log("it is not over but working now")
+        logging_log("Value is not over but App is working now")
     
 
 def do_work():
+    reissuance()
+    send_message("--Start threading--")
     schedule.every().day.at("17:30").do(job)
-    schedule.every().day.at("8:30").do(job)
+    schedule.every().day.at("08:30").do(job)
+    schedule.every(30).minutes.do(job)
+    # schedule.every(10).seconds.do(job) #test function
+
     while True:
         schedule.run_pending()
         time.sleep(1)
 
 def test_app():
-    print("testing")
-    send_message("@@Message Test!! ")
+    send_message("--Message Test--")
 
 
-def main():
-
+def make_wintray():
     stockAlram=threading.Thread(target=do_work,daemon=True,)
     test_trd=threading.Thread(target=test_app,daemon=True,)
     image = Image.open("paw.png")
@@ -52,8 +53,3 @@ def main():
 
 
 
-if __name__ == '__main__':
-    try:
-        main()
-    finally:
-        print("error")

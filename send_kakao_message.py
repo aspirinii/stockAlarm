@@ -1,5 +1,6 @@
 import requests
 import json
+from log_log import logging_log
 
 def send_message(content):
     with open("kakao_code.json","r") as fp:
@@ -27,6 +28,6 @@ def send_message(content):
 
     response = requests.post(url, headers=headers, data=data)
     if response.json().get('result_code') == 0:
-        print('메시지를 성공적으로 보냈습니다.')
+        logging_log(f"Send message : {content}")
     else:
-        print('메시지를 성공적으로 보내지 못했습니다. 오류메시지 : ' + str(response.json()))
+        logging_log('메시지를 성공적으로 보내지 못했습니다. 오류메시지 : ' + str(response.json()))
